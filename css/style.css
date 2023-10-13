@@ -10,7 +10,7 @@ body{
 .navContainer{
     display: flex;
     flex-wrap: nowrap;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     /* align-items: center; */
     max-width: 1000px;
     /* height: auto; */
@@ -19,7 +19,7 @@ body{
 
 }
 .navContainer > div {
-    width: 50%;
+    /* width: 50%; */
     /* text-align: center; */
     /* outline: 1px solid red; */
 }
@@ -155,7 +155,7 @@ ul.nav{
 
 }
 .personalDetails{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -179,7 +179,7 @@ h1, p{
     margin-top: 60px;
     align-items: center;
     flex-direction: row;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .cards-old{
@@ -240,7 +240,7 @@ h1,h2,h3,h4,h5,h6,p{
     width: 100%;
 } */
 #footer{
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     max-width: 1000px;
     display: flex;
     flex-direction: column;
@@ -258,13 +258,14 @@ h1,h2,h3,h4,h5,h6,p{
 @media screen and (max-width: 999px) {
     .bio{
         display: block;
+        max-width: 700px;
     }
     .personalDetails {
         padding: 65px;
     }
     #workCards {
         display:block;
-        max-width: 400px;
+        max-width: 250px;
     }
     .cmPhoto {
         width: 35%;
@@ -277,5 +278,8 @@ h1,h2,h3,h4,h5,h6,p{
     }
     .topNav{
         padding: 20px 0;
+    }
+    .navContainer{
+        max-width: 700px;
     }
 }
