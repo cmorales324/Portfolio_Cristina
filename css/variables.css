@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+:root{
+    --Primary: #EDDBCD;
+    --Primary-light: #F2E0D2;
+    --Primary-extra-light: #F5E6DA;
+    --Secondary: #B6A497;
+    --Secondary-dark: #676B4E;
+    --Secondary-light: #A9AE8F;
+    --Secondary-extra-light: #CCD1B4;
+    --Danger: #87B3C7;
+    --Danger-light: #9AC6DB;
+    --Danger-extra-light: #B7DCED;
+    --Danger-dark: #587F90;
+    --Gray: #595959;
+    --Gray-light: #767676;
+    --Gray-extra-light: #E0E0E0;
+    --Gray-dark: #272727;
+    --White: #FFFFFF;
+    --font-size-h1: 6rem;
+    --font-size-h2: 3.75rem;
+    --font-size-h3: 3rem;
+    --font-size-h4: 2.125rem;
+    --font-size-h5: 1.5rem;
+    --font-size-h6: 1.25rem;
+    --font-size-body-small: 0.875rem;
+    --font-size-button: 0.875rem;
+    --font-size-navigation: 1.2rem;
+
+
+
+
+}
