@@ -43,6 +43,15 @@ body{
 
 .mNavItem{
     display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-bottom: 1px solid lightgrey;
+    color: lightgreen;
+}
+
+.mNavItem.selected{
+    font-weight: bold;
+    color: rgb(218, 63, 109);    
 }
 
 .mobileMenu{
@@ -51,8 +60,11 @@ body{
 
 .mobileNav{
     position: absolute;
-    right: 0;
+    right: -20px;
     top: 30px;
+    background-color: white;
+    width: 50vh;
+    display: none;
 }
 /* .flex-container {
     display: flex;
