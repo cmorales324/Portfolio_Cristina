@@ -26,6 +26,7 @@ body{
 
 .logobox{
     text-align: left;
+    /* outline: 1px solid red; */
 }
 
 .navlist{
@@ -201,6 +202,8 @@ h1, p{
 /* -old */
 .cards img{
     width: 100%;
+    max-height: 258px;
+
 }
 
 
@@ -278,8 +281,13 @@ h1,h2,h3,h4,h5,h6,p{
     }
     .topNav{
         padding: 20px 0;
+        padding-right: 10px;
+        /* outline: 1px solid red; */
     }
     .navContainer{
         max-width: 700px;
+    }
+    .logo {
+        padding-left: 10px;
     }
 }
