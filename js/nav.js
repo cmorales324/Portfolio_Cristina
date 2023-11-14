@@ -3,3 +3,4 @@ $("#navIcon").on("click", function (){
     $("#navIcon").toggleClass("fa-bars");
     $("#navIcon").toggleClass("fa-xmark");
 })
+//test//
